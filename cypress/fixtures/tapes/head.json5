@@ -1,0 +1,84 @@
+{
+    meta: {
+        createdAt: '2021-01-11T23:00:45.755Z',
+        host: 'https://jsonplaceholder.typicode.com',
+    },
+    req: {
+        headers: {
+            accept: 'application/json, text/plain, */*',
+            connection: 'close',
+        },
+        url: '/',
+        method: 'HEAD',
+        body: '',
+    },
+    res: {
+        status: 200,
+        headers: {
+            date: [
+                'Mon, 11 Jan 2021 23:00:45 GMT',
+            ],
+            'content-type': [
+                'text/html; charset=UTF-8',
+            ],
+            connection: [
+                'close',
+            ],
+            'set-cookie': [
+                '__cfduid=d3520b1c43824ee8f61d83724f2fe62d51610406045; expires=Wed, 10-Feb-21 23:00:45 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax',
+            ],
+            'x-powered-by': [
+                'Express',
+            ],
+            'x-ratelimit-limit': [
+                '1000',
+            ],
+            'x-ratelimit-remaining': [
+                '999',
+            ],
+            'x-ratelimit-reset': [
+                '1610331254',
+            ],
+            vary: [
+                'Origin, Accept-Encoding',
+            ],
+            'access-control-allow-credentials': [
+                'true',
+            ],
+            'cache-control': [
+                'public, max-age=43200',
+            ],
+            'last-modified': [
+                'Sun, 10 Jan 2021 20:55:28 GMT',
+            ],
+            via: [
+                '1.1 vegur',
+            ],
+            'cf-cache-status': [
+                'HIT',
+            ],
+            age: [
+                '17173',
+            ],
+            'cf-request-id': [
+                '079547409e00004c254107b000000001',
+            ],
+            'expect-ct': [
+                'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+            ],
+            'report-to': [
+                '{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report?s=z%2Fei6HWhVD6k7ECzzUj6T7Y%2B0V2StHTJnK14fmwvFnxTHuGSxdp%2FPR%2B6L9RdipbbzUdgkLJX%2B3LT6CH4GU0tNIvbDWcTftpskGS9kaWiP2KlCE6x%2BGWK6Vi2SiR5"}],"group":"cf-nel","max_age":604800}',
+            ],
+            nel: [
+                '{"report_to":"cf-nel","max_age":604800}',
+            ],
+            server: [
+                'cloudflare',
+            ],
+            'cf-ray': [
+                '6102417a9a7f4c25-AMS',
+            ],
+        },
+        body: '',
+    },
+}

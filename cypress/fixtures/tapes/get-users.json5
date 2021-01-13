@@ -1,0 +1,156 @@
+{
+    meta: {
+        createdAt: '2021-01-11T23:08:57.672Z',
+        host: 'https://jsonplaceholder.typicode.com',
+        resHumanReadable: true,
+        resUncompressed: true,
+    },
+    req: {
+        headers: {
+            connection: 'keep-alive',
+            'proxy-connection': 'keep-alive',
+            accept: '*/*',
+            'sec-fetch-site': 'same-site',
+            'sec-fetch-mode': 'cors',
+            'sec-fetch-dest': 'empty',
+            'accept-encoding': 'gzip',
+        },
+        url: '/users',
+        method: 'GET',
+        body: '',
+    },
+    res: {
+        status: 200,
+        headers: {
+            date: [
+                'Mon, 11 Jan 2021 23:08:57 GMT',
+            ],
+            'content-type': [
+                'application/json; charset=utf-8',
+            ],
+            'transfer-encoding': [
+                'chunked',
+            ],
+            connection: [
+                'keep-alive',
+            ],
+            'set-cookie': [
+                '__cfduid=da0654f394540b1952f5f98645ec5b4961610406537; expires=Wed, 10-Feb-21 23:08:57 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax',
+            ],
+            'x-powered-by': [
+                'Express',
+            ],
+            'x-ratelimit-limit': [
+                '1000',
+            ],
+            'x-ratelimit-remaining': [
+                '999',
+            ],
+            'x-ratelimit-reset': [
+                '1610355135',
+            ],
+            'access-control-allow-origin': [
+                'http://localhost:3000',
+            ],
+            vary: [
+                'Origin, Accept-Encoding',
+            ],
+            'access-control-allow-credentials': [
+                'true',
+            ],
+            'cache-control': [
+                'max-age=43200',
+            ],
+            pragma: [
+                'no-cache',
+            ],
+            expires: [
+                '-1',
+            ],
+            'x-content-type-options': [
+                'nosniff',
+            ],
+            etag: [
+                'W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"',
+            ],
+            'content-encoding': [
+                'gzip',
+            ],
+            via: [
+                '1.1 vegur',
+            ],
+            'cf-cache-status': [
+                'HIT',
+            ],
+            age: [
+                '18675',
+            ],
+            'cf-request-id': [
+                '07954ec2a500004be826964000000001',
+            ],
+            'expect-ct': [
+                'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+            ],
+            'report-to': [
+                '{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report?s=VAwSDl%2BB6YVAn%2B1RD7NEVDeX62Dmoe7y6sk6EiyNLjcUbJK7sK8yh5pkxe7Zazy9c5IMHNVp3i50MT%2Ft1liyjMQLuWShUaSlYQofVcaWXq5KerZR6qArwHFNQ6qv"}],"group":"cf-nel","max_age":604800}',
+            ],
+            nel: [
+                '{"report_to":"cf-nel","max_age":604800}',
+            ],
+            server: [
+                'cloudflare',
+            ],
+            'cf-ray': [
+                '61024d7ddd5a4be8-AMS',
+            ],
+        },
+        body: [
+            {
+                id: 1,
+                name: 'Front enders',
+                username: 'Bret',
+                email: 'Sincere@april.biz',
+                address: {
+                    street: 'Kulas Light',
+                    suite: 'Apt. 556',
+                    city: 'Gwenborough',
+                    zipcode: '92998-3874',
+                    geo: {
+                        lat: '-37.3159',
+                        lng: '81.1496',
+                    },
+                },
+                phone: '1-770-736-8031 x56442',
+                website: 'hildegard.org',
+                company: {
+                    name: 'Romaguera-Crona',
+                    catchPhrase: 'Multi-layered client-server neural-net',
+                    bs: 'harness real-time e-markets',
+                },
+            },
+            {
+                id: 2,
+                name: 'PA Consulting',
+                username: 'Antonette',
+                email: 'Shanna@melissa.tv',
+                address: {
+                    street: 'Victor Plains',
+                    suite: 'Suite 879',
+                    city: 'Wisokyburgh',
+                    zipcode: '90566-7771',
+                    geo: {
+                        lat: '-43.9509',
+                        lng: '-34.4618',
+                    },
+                },
+                phone: '010-692-6593 x09125',
+                website: 'anastasia.net',
+                company: {
+                    name: 'Deckow-Crist',
+                    catchPhrase: 'Proactive didactic contingency',
+                    bs: 'synergize scalable supply-chains',
+                },
+            },
+        ],
+    },
+}

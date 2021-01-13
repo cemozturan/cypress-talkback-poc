@@ -1,0 +1,50 @@
+{
+  "name": "cyp-tal",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:mock-servers-open": "REACT_APP_API_HOST=http://localhost:5544 start-server-and-test mock:server 5544 start 3000 cypress:open",
+    "cypress:mock-servers-run": "REACT_APP_API_HOST=http://localhost:5544 start-server-and-test mock:server 5544 start 3000 cypress:run",
+    "mock:server": "babel-node cypress/scripts/mock-server.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "cypress": "^6.2.1",
+    "start-server-and-test": "^1.11.7",
+    "talkback": "^2.4.0"
+  }
+}
