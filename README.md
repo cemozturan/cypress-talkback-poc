@@ -34,12 +34,12 @@ npm run cypress:open
 npm run cypress:run
 ```
 
-The reason is that the tests are expecting the data that comes from the mocked talkback servers (which are stored inside the tapes we have in [cypress/fixtures/tapes](fixtures/tapes)). However, these commands execute the tests without mocking the external dependencies.
+The reason is that the tests are expecting the data that comes from the mocked talkback servers (which are stored inside the tapes we have in [cypress/fixtures/tapes](cypress/fixtures/tapes)). However, these commands execute the tests without mocking the external dependencies.
 
 
 ### How do we mock the external dependencies
 
-We start the talkback servers in [cypress/scripts/mock-server.js](/scripts/mock-server.js). You can read more about talkback online, but as a summary, I can say that it basically records the requests to/responses from real endpoints, and just replays them when we run the tests. These are recorded in [cypress/fixtures/tapes](fixtures/tapes).
+We start the talkback servers in [cypress/scripts/mock-server.js](cypress/scripts/mock-server.js). You can read more about talkback online, but as a summary, I can say that it basically records the requests to/responses from real endpoints, and just replays them when we run the tests. These are recorded in [cypress/fixtures/tapes](cypress/fixtures/tapes).
 
 Note that for the talkback servers to take effect, our code has to hit the talkback server that we configure. This means, any request we normally make to https://jsonplaceholder.typicode.com has to be made to http://localhost:5544 (you can configure a different port number, I chose 5544). This is why I have an environment variable (REACT_APP_API_HOST) which I set to http://localhost:5544 when running the cypress scripts (see [package.json](package.json))
 
